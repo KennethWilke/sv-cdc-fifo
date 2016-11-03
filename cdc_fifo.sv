@@ -41,7 +41,7 @@ module cdc_fifo
     .read_data(read_data)
   );
 
-  write_state
+  cdc_fifo_write_state
       #(.ADDRESS_WIDTH(ADDRESS_WIDTH)) writestate (
     .clock(write_clock),
     .reset(write_reset),
@@ -52,7 +52,7 @@ module cdc_fifo
     .full(full)
   );
 
-  read_state
+  cdc_fifo_read_state
       #(.ADDRESS_WIDTH(ADDRESS_WIDTH)) readstate (
    .clock(read_clock),
    .reset(read_reset),
