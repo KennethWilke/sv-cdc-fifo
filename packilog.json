@@ -1,7 +1,9 @@
 {
     "files":
     [
-        "cdc_fifo.sv"
+        "cdc_fifo.sv",
+        "cdc_fifo_read_state.sv",
+        "cdc_fifo_write_state.sv"
     ],
     "dependencies":
     [
@@ -12,6 +14,10 @@
         {
             "type": "packageurl",
             "source": "https://raw.githubusercontent.com/KennethWilke/sv-dpram/master/"
+        },
+        {
+            "type": "packageurl",
+            "source": "https://raw.githubusercontent.com/KennethWilke/sv-synchronizer/master/"
         }
     ]
 }
