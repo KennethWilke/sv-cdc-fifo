@@ -1,0 +1,18 @@
+{
+    "files":
+    [
+        "cdc_fifo.sv"
+    ],
+    "dependencies":
+    [
+        {
+            "type": "packageurl",
+            "source": "https://raw.githubusercontent.com/KennethWilke/sv-graycode/master/"
+        },
+        {
+            "type": "packageurl",
+            "source": "https://raw.githubusercontent.com/KennethWilke/sv-dpram/master/"
+        }
+    ]
+}
+
