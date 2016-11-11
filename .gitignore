@@ -1,3 +1,4 @@
 binary_to_gray.sv
 gray_to_binary.sv
 dpram.sv
+synchronizer.sv
